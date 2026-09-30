@@ -1,0 +1,124 @@
+/* Style général du document */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+    background-color: #f0fcf4; /* Fond légèrement vert d'eau */
+    margin: 0;
+    padding: 0;
+}
+
+/* En-tête gris en haut de la page */
+header {
+    background-color: dimgray;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 10px;
+    margin: 10px;
+}
+
+section {
+    margin: 20px;
+}
+
+/* Titre principal en rouge et majuscules */
+h1 {
+    text-align: center;
+    color: red;
+    text-transform: uppercase; /* Met le texte tout en majuscules pour correspondre à l'image */
+}
+
+/* Bandeau vert avec lien */
+.documentation {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.documentation a {
+    color: greenyellow;
+    text-decoration: none;
+}
+
+.documentation a:hover {
+    text-decoration: underline;
+}
+
+/* Encadré rouge brique / marron centré */
+#info {
+    width: 60%;
+    background-color: #a52a2a; /* Rouge brique (brown) */
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+    margin: 20px auto 40px auto;
+    line-height: 1.8em;
+}
+
+/* ======= BORDURE EN POINTILLÉS AUTOUR DE CHAQUE ARTICLE ======= */
+article {
+    border: 2px dotted #888; /* Bordure grise en pointillés */
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+/* Titre H2 avec fond rouge et carré noir */
+h2 {
+    background-color: red;
+    color: black;
+    border-left: 30px solid black; /* Le carré noir à gauche */
+    padding: 5px 10px;
+    margin-top: 0;
+}
+
+/* Style des petits bouts de code en ligne (ex: .css) */
+span.code {
+    font-family: "Courier New", Courier, monospace;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    padding: 2px 5px;
+}
+
+/* Style du grand bloc de code gris */
+pre.code {
+    font-family: "Courier New", Courier, monospace;
+    background-color: #f4f4f4;
+    border: 1px solid #cccccc;
+    padding: 15px;
+    display: block;
+}
+
+/* ======= STYLE DU TABLEAU ======= */
+table {
+    width: 60%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+tr {
+    height: 2em;
+}
+
+th {
+    background-color: darkblue;
+    color: white;
+    height: 3em;
+}
+
+/* Lignes paires en bleu clair */
+tr:nth-child(even) {
+    background-color: lightblue;
+}
+
+/* Texte de la dernière ligne en bleu */
+tr:last-child {
+    color: blue;
+}
